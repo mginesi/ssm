@@ -1,6 +1,6 @@
 import autograd.numpy as np
 import autograd.numpy.random as npr
-from autograd.scipy.misc import logsumexp
+from autograd.scipy.special import logsumexp
 from autograd import grad, elementwise_grad
 from autograd.test_util import check_grads
 
